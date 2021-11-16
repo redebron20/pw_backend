@@ -8,11 +8,11 @@
 
 Education.create ([
 {
-    school: "Flatiron School",
-    location: "Online - New York City", 
-    startDate: "October 2020",
-    endDate: "November 2021",
-    degree: "Software Engineering Program"
+    school: "Polytechnic University of the Philippines",
+    location: "Philippines", 
+    startDate: "June 2005",
+    endDate: "March 2009",
+    degree: "Bachelor of Science in Marketing Management"
 },
 {
     school: "General Assembly",
@@ -22,11 +22,11 @@ Education.create ([
     degree: "Front-End Web Development 10-week Program"
 },
 {
-    school: "Polytechnic University of the Philippines",
-    location: "Philippines", 
-    startDate: "June 2005",
-    endDate: "March 2009",
-    degree: "Bachelor of Science in Marketing Management"
+    school: "Flatiron School",
+    location: "Online - New York City", 
+    startDate: "October 2020",
+    endDate: "November 2021",
+    degree: "Software Engineering Program"
 }
 ])
 
@@ -70,41 +70,36 @@ Experience.create ([
     location: "New York City",
     startDate: "November 2016",
     endDate: "April 2020"
-}
+},
 ])
 
 Project.create ([
 {
     name: "Spoontastic::Meal::Plan",
     description: "This CLI application allows the user to search for daily meal plans based on diets and intolerances. The user can view the recipe details with ingredients, instructions, servings, and cooking time. The application allows the user to choose any recipe, update servings for that recipe, and add the ingredients to the shopping list. The user has the option to print out the full shopping list when done.",
-    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636473204/pw/placeholder_hds7ev.jpg",
+    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636593751/pw/Spoontastic_j7x10c.png",
     github_url: "https://github.com/redebron20/spoontastic-meal-plan",
     demo_vid: "https://www.youtube.com/embed/ubGSjbVDMc8"
 },
 {
     name: "to-day",
     description: "to-day is a simplified to-do-list application that allows users to list and organize everyday tasks. A user need to sign up by providing a unique username and setting up a password. A registered user is able to create list and add tasks to the list.",
-    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636473204/pw/placeholder_hds7ev.jpg",
+    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636593751/pw/to-day_dfrh9a.png",
     github_url: "https://github.com/redebron20/to-day",
     demo_vid: "https://www.youtube.com/embed/n-g_k6-Kwy8"
 },
 {
     name: "Mumshie Online Store",
     description: "A basic e-commerce web app in Ruby on Rails that allows user to create an account and login, or login via Google Omniauth. A user can perfom CRUD actions to products and categories.",
-    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636473204/pw/placeholder_hds7ev.jpg",
+    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636593751/pw/Mumshie_ijaivp.png",
     github_url: "https://github.com/redebron20/mumshie-online-store",
     demo_vid: "https://www.youtube.com/embed/hbCkxys4lKY"
 },
 {
     name: "budgetize",
     description: "budgetize is a simple budget tracker app built with vanilla Javascript frontend and a Rails API backend. A user can sign up and log in to track their budget and expense. They can create a budget, add, edit and delete expenses.",
-    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636473204/pw/placeholder_hds7ev.jpg",
+    image_url: "https://res.cloudinary.com/yourladyred20/image/upload/v1636593751/pw/budgetize_jyimib.png",
     github_url: "https://github.com/redebron20/budgetize",
     demo_vid: "https://www.youtube.com/embed/P8IfAngw5ow"
 }
 ])
-
-# budget<iframe width="560" height="315" src="https://www.youtube.com/embed/P8IfAngw5ow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-# meal<iframe width="560" height="315" src="https://www.youtube.com/embed/ubGSjbVDMc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-# today<iframe width="560" height="315" src="https://www.youtube.com/embed/n-g_k6-Kwy8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-# mumshie<iframe width="560" height="315" src="https://www.youtube.com/embed/hbCkxys4lKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
